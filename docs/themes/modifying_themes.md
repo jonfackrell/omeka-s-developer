@@ -4,7 +4,7 @@
 
 Omeka S has a set of default template files that all themes use, and override when the desired page structure is different from the default.
 
-The default template files are in the folder `/application/views` in your Omeka S installation within the following subfolders: `/application/views/common`, `/application/views/error`, `/application/views/layout`, and `/application/views/omeka/site`. Most views that theme builders need will be in `/application/views/layout` and `/application/views/omeka/site`. Subfolders correspond to the pages that are seen along url patterns. For example, the page displayed at `{YourOmeka SSite}/item/show` is produced by the file in `/application/views/omeka/site/item/show.phtml`.
+The default template files are in the folder `/application/views` in your Omeka S installation within the following subfolders: `/application/views/common`, `/application/views/error`, `/application/views/layout`, and `/application/views/omeka/site`. Most views that theme builders need will be in `/application/views/layout` and `/application/views/omeka/site`. Subfolders correspond to the pages that are seen along url patterns. For example, the page displayed at `{YourOmeka Site}/item/show` is produced by the file in `/application/views/omeka/site/item/show.phtml`.
 
 Themes might or might not override these files. The default theme, for example, has a `layout` directory that overrides one of the default templates: `layout.phtml`.
 
